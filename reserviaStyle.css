@@ -16,7 +16,7 @@ Sommaire :
     list-style-type: none;
 }
 ul {
-    margin: 0;
+    padding: 0;
 }
 em {
     font-weight: bold;
