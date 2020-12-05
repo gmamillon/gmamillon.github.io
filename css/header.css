@@ -1,0 +1,48 @@
+/* block header */
+header {
+    display: flex;
+    padding: 0% 2.5%; 
+    justify-content: space-between; 
+    height: 77px;
+    width: 95%;
+    position: fixed;
+    z-index: 1001;
+    background-color: white;
+    box-shadow: 4px 0px 10px #DDD;
+}
+/* 2.1 propriétés du logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 75px;
+    width: 100%;
+}
+/* 2.2 affichage/comportement du menu de navigation */
+a.link_menu, a.link_menu:visited, .signUp, .signup:visited {
+    padding: 0 25px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    color: #666;
+    text-decoration: none;
+    border-top: 3px solid transparent;
+    transition: 0.4s linear;
+    transition-property: border, color;
+}
+a.link_menu:hover, a.link_menu:focus, .signUp:hover, .signUp:focus {
+    color: #0065FC;
+    border-top-color: #0065FC;
+}
+.signUp, .signup:visited {
+    color: #0065FC;
+    font-weight: bold;
+}
+.menu {
+    margin: 0; 
+    display: flex;
+}
+.menu li{
+    display: inline-block;
+}

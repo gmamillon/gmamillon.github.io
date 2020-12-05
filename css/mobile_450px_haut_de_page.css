@@ -1,0 +1,81 @@
+/* 3.0 : block top */
+#top {
+    margin-left: 5px;
+    width: calc(100% - 5px);
+}
+#top h1 {
+    font-size: 25px;
+    line-height: 32px;
+}
+#top p {
+    font-size: 20px;
+    line-height: 32px;
+}
+/* 3.1 barre de recherche */
+#top form {
+    margin: 10px 0;
+}
+#search .fa-map-marker-alt {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    border-radius: 20px 0px 0px 20px;
+}
+.recherche, .recherche:focus {
+    height: 46px;
+    width: 150px;
+    font-size: 18px;
+    text-indent: 4px;
+}
+#search button {
+    height: 50px;
+    width: 50px;
+    border-radius: 0px 20px 20px 0px;
+}
+#search button i {
+    font-size: 25px;
+}
+/* 3.2 flitres de recherche */
+#filters li:first-child {
+    font-size: 25px;
+    margin: 0;
+}
+#filters li {
+    height: 60px;
+    margin: 5px 0;
+}
+#filters li a {
+    border-width: 4px;
+    border-radius: 50px;
+    padding: 0px 20px 0px 75px;
+    font-size: 25px;
+}
+#filters li a i {
+    height: 61px;
+    width: 61px;
+    font-size: 25px;
+    line-height: 60px;
+    left: -4px;
+    top: -4px;
+}
+#filters li a::before {
+    height: 61px;
+    width: 61px;
+    border-radius: 50px;
+    left: -4px;
+}
+#filters li a:hover::before {
+    width: calc(100% + 8px);
+}
+.choice {
+    height: 54px;
+}
+/* 3.3 petit point infos */
+#infos i {
+    font-size: 18px;
+    height: 30px;
+    width: 30px;
+}
+#infos p {
+    margin-left: 5px;
+}

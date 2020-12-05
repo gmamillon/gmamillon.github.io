@@ -1,0 +1,23 @@
+/* 5 : bas de la page */
+#bottom h2 {
+    font-size: 25px;
+}
+#activities {
+    height: 2160px;
+    margin: 30px 0;
+}
+#activities a {
+    height: 330px;
+    border-radius: 30px;
+}
+#activities a .images {
+    height: 240px;
+}
+#activities a span {
+    font-size: 24px;
+    height: 90px;
+    padding: 0 0 0 20px;
+}
+#activities a:nth-child(3n+1) .images {
+    height: 240px;
+}

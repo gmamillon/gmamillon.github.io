@@ -1,0 +1,27 @@
+article {
+    height: 700px;
+}
+article>div {
+    height: 90px;
+}
+article>div h2, article>div i {
+    font-size: 24px;
+}
+article ul {
+    height: 600px;
+    padding-bottom: 20px;
+}
+article ul li {
+    border-width: 5px;
+    border-radius: 30px;
+}
+.popular .images {
+    width: 50%;
+}
+.popular .description {
+    margin: 5px 0 0 5px;
+    font-size: 20px;
+}
+.popular .description div span {
+    font-size: 20px;
+}

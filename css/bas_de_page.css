@@ -1,0 +1,48 @@
+/* 5.0 : block bottom */
+#bottom {
+    margin: 0% 2.5%;
+    scroll-margin-top: 90px;
+}
+/* 5.1 block conteneur des activités */
+#activities {
+    height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 0px 60px 0px;
+}
+/* 5.2 affichage des activités */
+#activities a,#activities a:visited {
+    border-radius: 20px;
+    box-shadow: -5px 8px 8px #DDD;
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    width: 23%;
+    transition: all 0.3s linear;
+}
+#activities a:hover {
+    color: #0065FC;
+}
+#activities a span {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+#activities .images {
+    height: 200px;
+    width: 100%;
+}
+#activities a:nth-child(3n+1) .images {
+    height: 510px;
+}
+#activities .images img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.4s linear;
+}
