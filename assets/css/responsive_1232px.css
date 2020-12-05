@@ -1,0 +1,30 @@
+@media screen and (max-width: 1232px) {
+    /* 4 : contenu principale */
+    #mainContent {                                      
+        margin: 40px 1%;
+    }
+    /* 4.1 : hébergements*/
+    #host {
+        padding: 10px 15px;
+        width: 62%;
+    }
+    .heberg .description {
+        padding: 6px 0 0 10px ;
+        height: 30%;
+    }
+    .heberg .description div span {
+        font-size: 16px;
+        display: flex;
+    }
+    /* 4.2 : hébergements populaires */
+    article {
+        padding: 10px 15px;
+        width: 31%;
+    }
+    .popular .description {
+        margin: 10px 0 5px 10px;
+    }
+    .popular .description span {
+        font-size: 16px;
+    }
+}

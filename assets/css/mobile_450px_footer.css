@@ -1,0 +1,9 @@
+/* 6 : footer */
+footer li span {
+    font-size: 25px;
+    line-height: 60px;
+}
+footer li a {
+    font-size: 25px;
+    line-height: 40px;
+}

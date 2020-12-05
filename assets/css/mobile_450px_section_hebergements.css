@@ -1,0 +1,29 @@
+/* 4.1 : hébergements */
+#host {
+    height: auto;
+}
+#host h2, #host div a {
+    font-size: 25px;
+    margin-left: 10px;
+}
+#host ul {
+    height: 2160px;
+}
+#host li {
+    height: 330px;
+    border-width: 5px;
+    border-radius: 30px;
+}
+.heberg .images {
+    height: 240px;
+}
+.heberg .description {
+    padding: 0 0 10px 10px;
+    height: 80px;
+}
+.heberg .description div p, .heberg .description div span {
+    font-size: 20px;
+}
+#host div a {
+    height: 120px;
+}

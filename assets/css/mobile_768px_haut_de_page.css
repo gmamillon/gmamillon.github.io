@@ -1,0 +1,86 @@
+/* 3 : haut de la page */
+#top {
+    padding-top: 80px;
+    margin: 0 0 0 20px;
+    width: calc(100% - 20px);
+}
+#top h1 {
+    font-size: 32px;
+    line-height: 45px;
+}
+#top p {
+    font-size: 24px;
+    line-height: 60px;
+}
+#search .fa-map-marker-alt {
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    border-radius: 30px 0px 0px 30px;
+}
+.recherche, .recherche:focus {
+    height: 76px;
+    font-size: 30px;
+}
+#search button {
+    height: 80px;
+    width: 80px;
+    color: transparent;
+    border-radius: 0px 30px 30px 0px;
+}
+#search button:hover {
+    color: transparent;
+}
+#search button i {
+    color: white;
+    font-size: 30px;
+    transition: all 0.3s linear;
+}
+#search button:hover i {
+    color: #0065FC;
+}
+#filters li:first-child {
+    width: 640px;
+    font-size: 40px;
+}
+#filters li {
+    height: 80px;
+}
+#filters li a {
+    border-width: 4px;
+    border-radius: 50px;
+    padding: 0px 30px 0px 120px;
+    font-size: 32px;
+}
+#filters li a i {
+    height: 81px;
+    width: 81px;
+    font-size: 40px;
+    line-height: 80px;
+    left: -4px;
+    top: -4px;
+}
+#filters li a::before {
+    height: 81px;
+    width: 81px;
+    border-radius: 50px;
+    left: -4px;
+}
+#filters li a:hover::before {
+    width: calc(100% + 8px);
+}
+.choice {
+    height: 74px;
+}
+#infos i {
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+}
+#infos p {
+    font-size: 24px;
+    line-height: 40px;
+}
+.star {
+    font-size: 30px;
+}
