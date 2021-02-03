@@ -1,0 +1,63 @@
+.menuMaker {
+    background-color: #F6F6F6;
+    padding-top: 25px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    &__topDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__titre {
+            font-family: 'shrikhand';
+            font-size: 27px;
+            padding: 0 14% 0 4%;
+        }
+        &__fav {
+            font-size: 30px;
+            color: #666;
+            position: absolute;
+            z-index: 1;
+            right: 5%;
+            &--faved {
+                font-size: 30px;
+                color: transparent;
+                background: none;
+                position: absolute;
+                z-index: 1;
+                right: 5%;
+                &:hover, &:focus {
+                    background: linear-gradient($primaire, $secondaire);
+                    -webkit-background-clip: text;
+                    -moz-background-clip: text;
+                    background-clip: text;
+                }
+            }
+        }
+    }
+    &__partie {
+        width: 45px;
+        margin-left: 1%;
+        padding: 30px 0 5px 0;
+        color: #555;
+        font-weight: normal;
+        font-size: 18px;
+        border-bottom: 4px solid $tertiaire;
+    }
+    &__liste {
+        padding: 0 4%;
+    }
+    &__bottomDiv {
+        height: 150px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__valider {
+            @include bouton;
+            padding: 20px 50px;
+            &:hover, &:focus {
+                @include bouton--hover;
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.etape {
+    margin: 12px 4% 12px 30px;
+    width: 88%;
+    position: relative;
+    &__div {
+        display: flex;
+        align-items: center;
+        background-color: #EEE;
+        padding: 25px;
+        border-radius: 25px;
+        @include shadow;
+    }
+    &__icon {
+        width: 40px;
+        color: #666;
+        font-size: 22px;
+    }
+    &__p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    &__num {
+        font-size: 18px;
+        height: 25px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: $primaire;
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+        position: absolute;
+        top: 22px;
+        left: -15px;
+        z-index: 0;
+    }
+}
+.restaurants {
+    margin-top: 50px;
+    padding: 40px 0 60px 0;
+    scroll-margin-top: 40px;
+    background-color: #EEE;
+    &__titre {
+        margin: 0 0 10px 25px;
+    }
+    &__liste {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.resto {
+    height: 280px;
+    width: 90%;
+    margin: 15px 0px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+    transition: box-shadow 0.4s linear, transform 0.4s;
+    animation: 1.5s ease-out load;
+    @include shadow;
+    &:hover, &:focus {
+        box-shadow: -2px 6px 20px 2px #666;
+        transform: scale(1.002);
+    }
+    &__photo {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+    &__infos {
+        height: 80px;
+        padding: 10px 5%;
+        font-size: 18px;
+    }
+    &__nom {
+        margin-bottom: 5px;
+    }
+    &__fav {
+        font-size: 30px;
+        color: #666;
+        position: absolute;
+        z-index: 1;
+        right: 20px;
+        bottom: 30px;
+        &--faved {
+            font-size: 32px;
+            color: transparent;
+            position: absolute;
+            z-index: 1;
+            right: 19px;
+            bottom: 29px;
+            &:hover, &:focus {
+                background: linear-gradient($primaire, $secondaire);
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+                background-clip: text;
+            }
+        }
+    }
+}

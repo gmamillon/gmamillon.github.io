@@ -1,0 +1,15 @@
+@mixin bouton {
+    background-color: $primaire;
+    box-shadow: inset 10px 35px 70px -15px $secondaire;
+    color: white;
+    font-size: 18px;
+    padding: 20px 20px;
+    border-radius: 42px;
+    transition: all 0.45s ease-in;
+}
+@mixin bouton--hover {
+    box-shadow: inset -5px -20px 70px -15px $secondaire;
+}
+@mixin shadow {
+    box-shadow: -1px 3px 10px 1px #AAA;
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width: 1024px) {
+    .top {
+        height: 400px;
+        &__photo {
+            height: 400px;
+        }
+    }
+    .menuMaker {
+        &__grandiv {
+            grid-template-columns: 33% 33% 33%;
+        }
+    }
+} 

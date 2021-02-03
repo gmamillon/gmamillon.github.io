@@ -1,0 +1,27 @@
+.description {
+    background-color: #EEE;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+    margin-bottom: 20px;
+    &__titre {
+        margin: 0;
+        width: 65%;
+        text-align: center;
+    }
+    &__texte {
+        width: 80%;
+        text-align: center;
+        color: #555;
+        font-size: 18px;
+    }
+    &__ancre {
+        @include bouton;
+        &:hover, &:focus {
+            @include bouton--hover;
+        }
+    }
+}

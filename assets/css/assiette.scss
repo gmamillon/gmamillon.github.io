@@ -1,0 +1,61 @@
+.assiette {
+    width: max;
+    background-color: white;
+    border-radius: 16px;
+    height: 70px;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+    animation: 1.5s ease-out load;
+    @include shadow;
+    &__lien {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__description {
+        line-height: 24px;
+        font-size: 16px;
+        padding: 0 0 10px 10px;
+        width: calc(100% - 50px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__nom {
+        font-size: 18px;
+        font-weight: bold;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+         
+    }
+    &__prix {
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0 15px 10px 0;
+    }
+    &__select {
+        width: 0px;
+        height: 100%;
+        background-color: $tertiaire;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transition: all 0.4s linear;
+        &__icon {
+            font-size: 24px;
+            color: white;
+            transition: all 0.4s linear;
+        }
+    }
+    &:hover &__select, &:focus &__select {
+        width: 80px;
+        &__icon {
+            transform: rotate(1turn);
+        }
+    }
+}

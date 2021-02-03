@@ -1,0 +1,14 @@
+.top {
+    height: 240px;
+    width: 100%;
+    margin-bottom: -30px;
+    padding-top: 60px;
+    overflow: hidden;
+    &__photo {
+        height: 240px;
+        width: 100%;
+        position: fixed;
+        z-index: -1;
+        object-fit: cover;
+    }
+}

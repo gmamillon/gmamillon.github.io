@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+    .description {
+        height: 180px;
+    }
+    .fonctionnement {
+        &__liste {
+            flex-direction: row;
+        }
+    }
+    .restaurants {
+        &__titre {
+            margin-left: 2.7%;
+            font-size: 27px;
+        }
+        &__liste {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+    }
+    .resto {
+        height: 360px;
+        width: 45%;
+        margin: 20px 2.5%;
+        &__photo {
+            height: 280px;
+        }
+    }
+    .footer {
+        &__liste {
+            height: 80px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    }
+    .top {
+        height: 320px;
+        &__photo {
+            height: 320px;
+        }
+    }
+    .menuMaker {
+        &__grandiv {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+    }
+}

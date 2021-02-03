@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 4px 10px #AAA;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    margin-top: -60px;
+    z-index: 10;
+    img {
+        height: 35px;
+        width: auto;
+    }
+    &--resto {
+        margin-top: 0;
+        &__retour {
+            font-size: 22px;
+            line-height: 30px;
+            position: absolute;
+            left: 4%;
+            top: 18px;
+        }
+    }
+}
