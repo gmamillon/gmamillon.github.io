@@ -272,7 +272,7 @@ body {
   position: absolute;
   z-index: 1;
   right: 20px;
-  bottom: 30px;
+  bottom: 16px;
 }
 .resto__fav--faved {
   width: 40px;
@@ -285,7 +285,7 @@ body {
   position: absolute;
   z-index: 2;
   right: 20px;
-  bottom: 30px;
+  bottom: 16px;
   background: linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
   -moz-background-clip: text;
