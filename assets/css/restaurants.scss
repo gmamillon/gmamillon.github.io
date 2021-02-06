@@ -64,7 +64,7 @@
         position: absolute;
         z-index: 1;
         right: 20px;
-        bottom: 30px;
+        bottom: 16px;
         &--faved {
             width: 40px;
             height: 11px;
@@ -76,7 +76,7 @@
             position: absolute;
             z-index: 2;
             right: 20px;
-            bottom: 30px;
+            bottom: 16px;
             background: linear-gradient($primaire, $secondaire);
             -webkit-background-clip: text;
             -moz-background-clip: text;
