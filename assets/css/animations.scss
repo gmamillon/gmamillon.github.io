@@ -1,3 +1,22 @@
+@keyframes spinnerLoad{
+    0% {
+        color: $tertiaire;
+        transform: rotate(1turn);
+    }
+    100% {
+        color: $tertiaire;
+    }
+}
+@keyframes BGspinner{
+    from {
+        background-color: #f5edff;
+        z-index: 11;
+    }
+    to {
+        background-color: #f5edff;
+        z-index: 11;
+    }
+}
 @keyframes load{
     0% {
         opacity: 0;

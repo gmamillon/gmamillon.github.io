@@ -1,0 +1,15 @@
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    animation: 1s BGspinner 3 linear;
+    z-index: -1;
+    &__icon {
+        color: transparent;
+        font-size: 80px;
+        animation: 1s spinnerLoad 3 linear;
+    }
+}
