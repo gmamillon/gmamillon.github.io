@@ -289,7 +289,6 @@ body {
   background: linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  background-clip: text;
   transition: all 0.6s ease-out;
 }
 .resto__fav--faved:hover, .resto__fav--faved:focus {
@@ -360,7 +359,6 @@ body {
   background: linear-gradient(#9356DC, #FF79DA);
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  background-clip: text;
   bottom: 30px;
   transition: all 0.6s ease-out;
 }
