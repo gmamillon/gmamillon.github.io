@@ -40,7 +40,6 @@
                 background: linear-gradient($primaire, $secondaire);
                 -webkit-background-clip: text;
                 -moz-background-clip: text;
-                background-clip: text;
                 bottom: 30px;
                 transition: all 0.6s ease-out;
                 &:hover, &:focus {

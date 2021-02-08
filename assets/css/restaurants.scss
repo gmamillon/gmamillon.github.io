@@ -80,7 +80,6 @@
             background: linear-gradient($primaire, $secondaire);
             -webkit-background-clip: text;
             -moz-background-clip: text;
-            background-clip: text;
             transition: all 0.6s ease-out;
             &:hover, &:focus {
                 font-size: 30px;
